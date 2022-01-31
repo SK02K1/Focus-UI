@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* TYPOGRAPHY */
+  --ff-primary: 'Inter', sans-serif;
+
+  /* COLORS */
+
+  /* BASE */
+  --white: #e8eaed;
+  --black: #282828;
+  --gray: #6b7280;
+
+  /* PRIMARY */
+  --clr-primary-500: #3b82f6;
+  --clr-primary-400: #60a5fa;
+  --clr-primary-300: #93c5fd;
+  --clr-primary-200: #bfdbfe;
+  --clr-primary-100: #dbeafe;
+
+  /* SECONDARY */
+  --clr-secondary-500: #f97316;
+  --clr-secondary-400: #fb923c;
+  --clr-secondary-300: #fdba74;
+  --clr-secondary-200: #fed7aa;
+  --clr-secondary-100: #ffedd5;
+
+  /* ACCENT */
+  --clr-accent-500: #ec4899;
+  --clr-accent-400: #f472b6;
+  --clr-accent-300: #f9a8d4;
+  --clr-accent-200: #fbcfe8;
+  --clr-accent-100: #fce7f3;
+
+  /* DANGER */
+  --clr-danger-500: #ef4444;
+  --clr-danger-400: #f87171;
+  --clr-danger-300: #fca5a5;
+  --clr-danger-200: #fecaca;
+  --clr-danger-100: #fee2e2;
+
+  /* WARNING */
+  --clr-warning-500: #eab308;
+  --clr-warning-400: #facc15;
+  --clr-warning-300: #fde047;
+  --clr-warning-200: #fef08a;
+  --clr-warning-100: #fef9c3;
+
+  /* SUCCESS */
+  --clr-success-500: #22c55e;
+  --clr-success-400: #4ade80;
+  --clr-success-300: #86efac;
+  --clr-success-200: #bbf7d0;
+  --clr-success-100: #dcfce7;
+}
