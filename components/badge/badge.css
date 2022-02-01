@@ -1,0 +1,50 @@
+/* Avatar Badge */
+.avatar-badge {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar-badge > div {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  border-radius: var(--br-full);
+}
+
+.avatar-badge-xs div {
+  width: 4px;
+  height: 4px;
+}
+
+.avatar-badge-sm div {
+  width: 6px;
+  height: 6px;
+}
+
+.avatar-badge-md div {
+  width: 8px;
+  height: 8px;
+}
+
+.avatar-badge-lg div {
+  width: 10px;
+  height: 10px;
+}
+
+.avatar-badge-xl div {
+  width: 12px;
+  height: 12px;
+}
+
+.status-online {
+  background-color: var(--clr-success-500);
+}
+.status-offline {
+  background-color: var(--gray);
+}
+.status-idle {
+  background-color: var(--clr-warning-500);
+}
+.status-dnd {
+  background-color: var(--clr-danger-500);
+}

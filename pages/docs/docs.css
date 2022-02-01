@@ -2,9 +2,11 @@
 @import url(../../css/variables.css);
 @import url(../../css/defaults.css);
 @import url(../../components/avatar/avatar.css);
+@import url(../../components/badge/badge.css);
 
 body {
   font-family: var(--ff-primary);
+  color: var(--black);
 }
 
 .wrapper {
@@ -33,13 +35,14 @@ body {
 }
 
 .sidebar-option {
+  color: var(--gray);
   cursor: pointer;
   margin: 0.5rem 0rem;
   transition: color 100ms ease;
 }
 
 .sidebar-option:hover {
-  color: var(--clr-primary-500);
+  color: var(--black);
 }
 
 .sidebar-option-active {
@@ -56,9 +59,30 @@ body {
   display: none;
 }
 
+.docs-h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.docs-h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
 .docs-p {
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.4rem;
+  color: var(--gray);
+}
+
+.docs-h1,
+.docs-h2,
+.docs-p {
+  margin: 1rem 0rem;
+}
+
+.text-highlight {
+  color: var(--clr-accent-500);
 }
 
 .carbon-container {
