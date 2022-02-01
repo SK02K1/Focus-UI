@@ -1,6 +1,7 @@
 @import url(../../css/reset.css);
 @import url(../../css/variables.css);
 @import url(../../css/defaults.css);
+@import url(../../components/avatar/avatar.css);
 
 body {
   font-family: var(--ff-primary);
@@ -17,7 +18,7 @@ body {
 .sidebar,
 .main-content {
   height: inherit;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .sidebar {
@@ -53,4 +54,15 @@ body {
 
 .hide-content {
   display: none;
+}
+
+.docs-p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.carbon-container {
+  max-width: 100%;
+  overflow: hidden;
+  margin: 2rem 0rem;
 }

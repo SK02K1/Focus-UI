@@ -52,4 +52,15 @@
   --clr-success-300: #86efac;
   --clr-success-200: #bbf7d0;
   --clr-success-100: #dcfce7;
+
+  /* BORDER-RADIUS */
+  --br-none: 0px;
+  --br-sm: 2px;
+  --br: 4px;
+  --br-md: 6px;
+  --br-lg: 8px;
+  --br-xl: 12px;
+  --br-2xl: 16px;
+  --br-3xl: 24px;
+  --br-full: 50%;
 }
