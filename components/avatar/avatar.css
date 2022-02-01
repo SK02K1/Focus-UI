@@ -1,0 +1,26 @@
+@import url(../../css/variables.css);
+
+.avatar {
+  display: inline-block;
+  border-radius: var(--br-full);
+}
+
+.avatar-xs {
+  width: 2rem;
+}
+
+.avatar-sm {
+  width: 2.5rem;
+}
+
+.avatar-md {
+  width: 3rem;
+}
+
+.avatar-lg {
+  width: 3.5rem;
+}
+
+.avatar-xl {
+  width: 4rem;
+}

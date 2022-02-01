@@ -1,9 +1,17 @@
 @import url(../../css/reset.css);
 @import url(../../css/variables.css);
 @import url(../../css/defaults.css);
+@import url(../../components/avatar/avatar.css);
+@import url(../../components/badge/badge.css);
 
 body {
   font-family: var(--ff-primary);
+  color: var(--black);
+}
+
+hr {
+  background-color: var(--gray);
+  margin: 2rem 0rem;
 }
 
 .wrapper {
@@ -17,7 +25,7 @@ body {
 .sidebar,
 .main-content {
   height: inherit;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .sidebar {
@@ -32,18 +40,23 @@ body {
 }
 
 .sidebar-option {
+  color: var(--gray);
   cursor: pointer;
   margin: 0.5rem 0rem;
   transition: color 100ms ease;
 }
 
 .sidebar-option:hover {
-  color: var(--clr-primary-500);
+  color: var(--black);
 }
 
 .sidebar-option-active {
   color: var(--clr-primary-500);
   font-weight: 500;
+}
+
+.sidebar-option-active:hover {
+  color: var(--clr-primary-400);
 }
 
 .main-content {
@@ -53,4 +66,36 @@ body {
 
 .hide-content {
   display: none;
+}
+
+.docs-h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.docs-h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.docs-p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--gray);
+}
+
+.docs-h1,
+.docs-h2,
+.docs-p {
+  margin: 1rem 0rem;
+}
+
+.text-highlight {
+  color: var(--clr-accent-500);
+}
+
+.carbon-container {
+  max-width: 100%;
+  overflow: hidden;
+  margin: 2rem 0rem;
 }

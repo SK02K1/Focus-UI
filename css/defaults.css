@@ -7,6 +7,20 @@ button {
   cursor: pointer;
 }
 
-li {
+ul[role='list'],
+ol[role='list'] {
   list-style: none;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }

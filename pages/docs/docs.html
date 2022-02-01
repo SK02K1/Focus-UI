@@ -14,7 +14,7 @@
   <body>
     <div class="wrapper">
       <aside class="sidebar">
-        <ul>
+        <ul role="list">
           <h2>Getting Started 🚀</h2>
           <li class="sidebar-option">Installation</li>
           <h2>Components</h2>
@@ -37,52 +37,228 @@
       </aside>
       <main class="main-content">
         <section data-id="Installation">
-          <h1>Installation</h1>
+          <h1 class="docs-h1">Installation</h1>
         </section>
         <section data-id="Avatar">
-          <h1>Avatar</h1>
+          <h1 class="docs-h1">Avatar</h1>
+          <p class="docs-p">Avatars are available in 5 sizes</p>
+          <img
+            class="avatar avatar-xs"
+            src="../../assets/avatar-04.svg"
+            alt="avatar"
+          />
+          <img
+            class="avatar avatar-sm"
+            src="../../assets/avatar-04.svg"
+            alt="avatar"
+          />
+          <img
+            class="avatar avatar-md"
+            src="../../assets/avatar-04.svg"
+            alt="avatar"
+          />
+          <img
+            class="avatar avatar-lg"
+            src="../../assets/avatar-04.svg"
+            alt="avatar"
+          />
+          <img
+            class="avatar avatar-xl"
+            src="../../assets/avatar-04.svg"
+            alt="avatar"
+          />
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/dmC13f0u1W78c1b8C2Qp"
+              style="
+                width: 680px;
+                height: 179px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </section>
         <section data-id="Alert">
-          <h1>Alert</h1>
+          <h1 class="docs-h1">Alert</h1>
         </section>
         <section data-id="Badge">
-          <h1>Badge</h1>
+          <h1 class="docs-h1">Badge</h1>
+          <p class="docs-p">
+            Use badge component to draw attention of your users to a particular
+            element by indicating some state.
+          </p>
+          <hr />
+          <h2 class="docs-h2">Badge on avatars</h2>
+          <p class="docs-p">
+            Use avatar badge to indicate states like
+            <span class="text-highlight">online</span>,
+            <span class="text-highlight">offline</span>,
+            <span class="text-highlight">idle</span> and
+            <span class="text-highlight">do not disturb</span>.
+          </p>
+
+          <div class="avatar-badge avatar-badge-md">
+            <img
+              class="avatar avatar-md"
+              src="../../assets/avatar-04.svg"
+              alt="avatar"
+            />
+            <div class="status status-online"></div>
+          </div>
+          <div class="avatar-badge avatar-badge-md">
+            <img
+              class="avatar avatar-md"
+              src="../../assets/avatar-04.svg"
+              alt="avatar"
+            />
+            <div class="status status-offline"></div>
+          </div>
+          <div class="avatar-badge avatar-badge-md">
+            <img
+              class="avatar avatar-md"
+              src="../../assets/avatar-04.svg"
+              alt="avatar"
+            />
+            <div class="status status-idle"></div>
+          </div>
+          <div class="avatar-badge avatar-badge-md">
+            <img
+              class="avatar avatar-md"
+              src="../../assets/avatar-04.svg"
+              alt="avatar"
+            />
+            <div class="status status-dnd"></div>
+          </div>
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/n8YwSxcgmnRp2jhCFKfa"
+              style="
+                width: 680px;
+                height: 931px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <p class="docs-p">
+            <span class="text-highlight">Note: </span> To position badge on
+            avatar correctly, size of avatar and badge must be same.
+          </p>
+
+          <div class="avatar-badge avatar-badge-xs">
+            <img
+              class="avatar avatar-xs"
+              src="../../assets/avatar-04.svg"
+              alt="avatar"
+            />
+            <div class="status status-online"></div>
+          </div>
+          <div class="avatar-badge avatar-badge-sm">
+            <img
+              class="avatar avatar-sm"
+              src="../../assets/avatar-04.svg"
+              alt="avatar"
+            />
+            <div class="status status-online"></div>
+          </div>
+          <div class="avatar-badge avatar-badge-md">
+            <img
+              class="avatar avatar-md"
+              src="../../assets/avatar-04.svg"
+              alt="avatar"
+            />
+            <div class="status status-online"></div>
+          </div>
+          <div class="avatar-badge avatar-badge-lg">
+            <img
+              class="avatar avatar-lg"
+              src="../../assets/avatar-04.svg"
+              alt="avatar"
+            />
+            <div class="status status-online"></div>
+          </div>
+          <div class="avatar-badge avatar-badge-xl">
+            <img
+              class="avatar avatar-xl"
+              src="../../assets/avatar-04.svg"
+              alt="avatar"
+            />
+            <div class="status status-online"></div>
+          </div>
+          <hr />
+          <h2 class="docs-h2">Badge on icons</h2>
+          <p class="docs-p">
+            Use icon badge to show numbers and different state on icons.
+          </p>
+          <div class="icon-badge">
+            <img class="icon" src="../../assets/mail.svg" alt="mail" />
+            <div>99</div>
+          </div>
+          <div class="icon-badge">
+            <img
+              class="icon"
+              src="../../assets/notifications.svg"
+              alt="notifications"
+            />
+            <div>5</div>
+          </div>
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/RoMHbvpnrLIq9nNStuln"
+              style="
+                width: 680px;
+                height: 235px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </section>
         <section data-id="Button">
-          <h1>Button</h1>
+          <h1 class="docs-h1">Button</h1>
         </section>
         <section data-id="Card">
-          <h1>Card</h1>
+          <h1 class="docs-h1">Card</h1>
         </section>
         <section data-id="Grid">
-          <h1>Grid</h1>
+          <h1 class="docs-h1">Grid</h1>
         </section>
         <section data-id="Image">
-          <h1>Image</h1>
+          <h1 class="docs-h1">Image</h1>
         </section>
         <section data-id="Input">
-          <h1>Input</h1>
+          <h1 class="docs-h1">Input</h1>
         </section>
         <section data-id="Lists">
-          <h1>Lists</h1>
+          <h1 class="docs-h1">Lists</h1>
         </section>
         <section data-id="Modal">
-          <h1>Modal</h1>
+          <h1 class="docs-h1">Modal</h1>
         </section>
         <section data-id="Navigation">
-          <h1>Navigation</h1>
+          <h1 class="docs-h1">Navigation</h1>
         </section>
         <section data-id="Rating">
-          <h1>Rating</h1>
+          <h1 class="docs-h1">Rating</h1>
         </section>
         <section data-id="Slider">
-          <h1>Slider</h1>
+          <h1 class="docs-h1">Slider</h1>
         </section>
         <section data-id="Text Utilities">
-          <h1>Text Utilities</h1>
+          <h1 class="docs-h1">Text Utilities</h1>
         </section>
         <section data-id="Toast">
-          <h1>Toast</h1>
+          <h1 class="docs-h1">Toast</h1>
         </section>
       </main>
     </div>
