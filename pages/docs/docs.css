@@ -1,0 +1,56 @@
+@import url(../../css/reset.css);
+@import url(../../css/variables.css);
+@import url(../../css/defaults.css);
+
+body {
+  font-family: var(--ff-primary);
+}
+
+.wrapper {
+  width: 70%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar,
+.main-content {
+  height: inherit;
+  overflow-y: scroll;
+}
+
+.sidebar {
+  width: 30%;
+  padding: 1rem;
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.sidebar-option {
+  cursor: pointer;
+  margin: 0.5rem 0rem;
+  transition: color 100ms ease;
+}
+
+.sidebar-option:hover {
+  color: var(--clr-primary-500);
+}
+
+.sidebar-option-active {
+  color: var(--clr-primary-500);
+  font-weight: 500;
+}
+
+.main-content {
+  padding: 2rem;
+  width: 100%;
+}
+
+.hide-content {
+  display: none;
+}
