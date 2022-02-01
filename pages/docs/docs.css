@@ -9,6 +9,11 @@ body {
   color: var(--black);
 }
 
+hr {
+  background-color: var(--gray);
+  margin: 2rem 0rem;
+}
+
 .wrapper {
   width: 70%;
   height: 100vh;
@@ -48,6 +53,10 @@ body {
 .sidebar-option-active {
   color: var(--clr-primary-500);
   font-weight: 500;
+}
+
+.sidebar-option-active:hover {
+  color: var(--clr-primary-400);
 }
 
 .main-content {
