@@ -3,6 +3,7 @@
 @import url(../../css/defaults.css);
 @import url(../../components/avatar/avatar.css);
 @import url(../../components/badge/badge.css);
+@import url(../../components/alert/alert.css);
 
 body {
   font-family: var(--ff-primary);

@@ -1,0 +1,42 @@
+.alert {
+  display: flex;
+  align-items: center;
+  border-radius: var(--br);
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  max-width: 99%;
+}
+
+.alert-msg {
+  font-size: 0.8rem;
+  margin-left: 2rem;
+}
+
+.icon-error {
+  color: var(--clr-danger-500);
+}
+.icon-warning {
+  color: var(--clr-warning-500);
+}
+.icon-success {
+  color: var(--clr-success-500);
+}
+.icon-info {
+  color: var(--clr-primary-500);
+}
+
+.alert-error {
+  background-color: var(--clr-danger-100);
+}
+
+.alert-warning {
+  background-color: var(--clr-warning-100);
+}
+
+.alert-success {
+  background-color: var(--clr-success-200);
+}
+
+.alert-info {
+  background-color: var(--clr-primary-100);
+}
