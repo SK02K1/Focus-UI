@@ -40,3 +40,20 @@
 .alert-info {
   background-color: var(--clr-primary-100);
 }
+
+.alert.outlined {
+  background-color: #fff;
+}
+
+.alert-error.outlined {
+  border: 2px solid var(--clr-danger-500);
+}
+.alert-warning.outlined {
+  border: 2px solid var(--clr-warning-500);
+}
+.alert-info.outlined {
+  border: 2px solid var(--clr-primary-500);
+}
+.alert-success.outlined {
+  border: 2px solid var(--clr-success-500);
+}
