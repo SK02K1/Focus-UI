@@ -17,6 +17,7 @@
   </head>
   <body>
     <div class="wrapper">
+      <!-- ------SIDEBAR------ -->
       <aside class="sidebar">
         <ul role="list">
           <h2>Getting Started 🚀</h2>
@@ -39,13 +40,20 @@
           <li class="sidebar-option">Toast</li>
         </ul>
       </aside>
+
+      <!-- ------MAIN-CONTENT------ -->
       <main class="main-content">
+        <!-- -----1. INSTALLATION----- -->
         <section data-id="Installation">
           <h1 class="docs-h1">Installation</h1>
         </section>
+
+        <!-- -----2. AVATAR----- -->
         <section data-id="Avatar">
           <h1 class="docs-h1">Avatar</h1>
           <p class="docs-p">Avatars are available in 5 sizes</p>
+
+          <!-- ----AVATAR_EXAMPLES -->
           <img
             class="avatar avatar-xs"
             src="../../assets/avatar-04.svg"
@@ -71,6 +79,7 @@
             src="../../assets/avatar-04.svg"
             alt="avatar"
           />
+          <!-- ----AVATARS_CODE_SNIPPET---- -->
           <div class="carbon-container">
             <iframe
               src="https://carbon.now.sh/embed/dmC13f0u1W78c1b8C2Qp"
@@ -86,6 +95,8 @@
             </iframe>
           </div>
         </section>
+
+        <!-- -----3. ALERT----- -->
         <section data-id="Alert">
           <h1 class="docs-h1">Alert</h1>
           <p class="docs-p">
@@ -94,6 +105,8 @@
           </p>
           <hr />
           <h2 class="docs-h2">Basic alerts</h2>
+
+          <!-- ----BASIC_ALERT_EXAMPLES---- -->
           <div role="alert" class="alert alert-error">
             <span class="material-icons-outlined icon-error"> error </span>
             <div class="alert-msg">This is an error alert</div>
@@ -112,6 +125,8 @@
             </span>
             <div class="alert-msg">This is an success alert</div>
           </div>
+
+          <!-- ----BASIC_ALERTS_CODE_SNIPPET---- -->
           <div class="carbon-container">
             <iframe
               src="https://carbon.now.sh/embed/PttlyzAx3B8tN3DhQ3Sm"
@@ -128,6 +143,8 @@
           </div>
           <hr />
           <h2 class="docs-h2">Outlined alerts</h2>
+
+          <!-- ----OUTLINED_ALERT_EXAMPLES---- -->
           <div role="alert" class="alert alert-error outlined">
             <span class="material-icons-outlined icon-error"> error </span>
             <div class="alert-msg">This is an error alert</div>
@@ -146,19 +163,25 @@
             </span>
             <div class="alert-msg">This is an success alert</div>
           </div>
-          <iframe
-            src="https://carbon.now.sh/embed/WgUkhzFmOEU99iUNEr4y"
-            style="
-              width: 680px;
-              height: 622px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+
+          <!-- ----OUTLINED_ALERTS_CODE_SNIPPET---- -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/WgUkhzFmOEU99iUNEr4y"
+              style="
+                width: 680px;
+                height: 622px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </section>
+
+        <!-- ------3. BADGE------ -->
         <section data-id="Badge">
           <h1 class="docs-h1">Badge</h1>
           <p class="docs-p">
@@ -166,6 +189,8 @@
             element by indicating some state.
           </p>
           <hr />
+
+          <!-- ----BADGE_ON_AVATAR---- -->
           <h2 class="docs-h2">Badge on avatars</h2>
           <p class="docs-p">
             Use avatar badge to indicate states like
@@ -175,6 +200,7 @@
             <span class="text-highlight">do not disturb</span>.
           </p>
 
+          <!-- -----BADGE_ON_AVATAR_EXAMPLES----- -->
           <div class="avatar-badge avatar-badge-md">
             <img
               class="avatar avatar-md"
@@ -207,6 +233,8 @@
             />
             <div class="status status-dnd"></div>
           </div>
+
+          <!-- ----BADGE_ON_AVATAR_CODE_SNIPPET---- -->
           <div class="carbon-container">
             <iframe
               src="https://carbon.now.sh/embed/n8YwSxcgmnRp2jhCFKfa"
@@ -221,11 +249,13 @@
             >
             </iframe>
           </div>
+
           <p class="docs-p">
             <span class="text-highlight">Note: </span> To position badge on
             avatar correctly, size of avatar and badge must be same.
           </p>
 
+          <!-- -----BADGE_ON_AVATAR_DIFFERENT-SIZES----- -->
           <div class="avatar-badge avatar-badge-xs">
             <img
               class="avatar avatar-xs"
@@ -267,22 +297,28 @@
             <div class="status status-online"></div>
           </div>
           <hr />
+
+          <!-- -----BADGE_ON_ICONS----- -->
           <h2 class="docs-h2">Badge on icons</h2>
           <p class="docs-p">
             Use icon badge to show numbers and different state on icons.
           </p>
-          <div class="icon-badge hr-gutter-rt-1">
+
+          <!-- ----BADGE_ON_ICON_EXAMPLES---- -->
+          <div class="icon-badge m-xl-r">
             <span class="material-icons-outlined icon"> email </span>
             <div>99</div>
           </div>
-          <div class="icon-badge hr-gutter-rt-1">
+          <div class="icon-badge m-xl-r">
             <span class="material-icons-outlined icon"> notifications </span>
             <div>5</div>
           </div>
-          <div class="icon-badge hr-gutter-rt-1">
+          <div class="icon-badge m-xl-r">
             <span class="material-icons-outlined icon"> shopping_cart </span>
             <div>0</div>
           </div>
+
+          <!-- ----BADGE_ON_ICON_CODE_SNIPPET---- -->
           <div class="carbon-container">
             <iframe
               src="https://carbon.now.sh/embed/RoMHbvpnrLIq9nNStuln"
@@ -299,6 +335,7 @@
           </div>
         </section>
 
+        <!-- ----4. BUTTON---- -->
         <section data-id="Button">
           <h1 class="docs-h1">Button</h1>
           <p class="docs-p">
@@ -306,16 +343,22 @@
             single tap.
           </p>
           <hr />
+
+          <!-- ----CONTAINED_BUTTONS---- -->
           <h2 class="docs-h2">Contained button</h2>
           <p class="docs-p">
             Contained buttons are high-emphasis, distinguished by their use of
             elevation and fill. They contain actions that are primary to your
             app.
           </p>
-          <button class="btn btn-primary hr-gutter-rt-1">Primary</button>
-          <button class="btn btn-secondary hr-gutter-rt-1">Secondary</button>
-          <button class="btn btn-danger hr-gutter-rt-1">Danger</button>
-          <button class="btn btn-success hr-gutter-rt-1">Success</button>
+
+          <!-- ----CONTAINED_BUTTONS_EXAMPLES---- -->
+          <button class="btn btn-primary m-xl-r">Primary</button>
+          <button class="btn btn-secondary m-xl-r">Secondary</button>
+          <button class="btn btn-danger m-xl-r">Danger</button>
+          <button class="btn btn-success m-xl-r">Success</button>
+
+          <!-- ----CONTAINED_BUTTONS_CODE_SNIPPET---- -->
           <div class="carbon-container">
             <iframe
               src="https://carbon.now.sh/embed/Tq6tqD2Kq8J5CBSIi3ex"
@@ -331,21 +374,21 @@
             </iframe>
           </div>
           <hr />
+
+          <!-- ----OUTLINED_BUTTONS---- -->
           <h2 class="docs-h2">Outlined Button</h2>
           <p class="docs-p">
             Outlined buttons are medium-emphasis buttons. They contain actions
             that are important but aren't the primary action in an app.
           </p>
-          <button class="btn btn-primary outlined hr-gutter-rt-1">
-            Primary
-          </button>
-          <button class="btn btn-secondary outlined hr-gutter-rt-1">
-            Secondary
-          </button>
-          <button class="btn btn-danger outlined hr-gutter-rt-1">Danger</button>
-          <button class="btn btn-success outlined hr-gutter-rt-1">
-            Success
-          </button>
+
+          <!-- ----OUTLINED_BUTTONS_EXAMPLES---- -->
+          <button class="btn btn-primary outlined m-xl-r">Primary</button>
+          <button class="btn btn-secondary outlined m-xl-r">Secondary</button>
+          <button class="btn btn-danger outlined m-xl-r">Danger</button>
+          <button class="btn btn-success outlined m-xl-r">Success</button>
+
+          <!-- ----OUTLINED_BUTTON_CODE_SNIPPET---- -->
           <div class="carbon-container">
             <iframe
               src="https://carbon.now.sh/embed/7jaYjnbztELLtKhlA1CP"
@@ -361,16 +404,58 @@
             </iframe>
           </div>
           <hr />
+
+          <!-- ----LINK_BUTTONS---- -->
           <h2 class="docs-h2">Link Button</h2>
           <p class="docs-p">Using anchor tag as button</p>
-          <a class="btn btn-primary hr-gutter-rt-1" href="#">Link</a>
-          <a class="btn btn-primary outlined hr-gutter-rt-1" href="#">Link</a>
+
+          <!-- ----LINK_BUTTONS_EXAMPLES---- -->
+          <a class="btn btn-primary m-xl-r" href="#">Link</a>
+          <a class="btn btn-primary outlined m-xl-r" href="#">Link</a>
+
+          <!-- ----LINK_BUTTON_CODE_SNIPPET---- -->
           <div class="carbon-container">
             <iframe
               src="https://carbon.now.sh/embed/NzRLOgAlgz0zCai8A4Tw"
               style="
                 width: 680px;
                 height: 230px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <hr />
+
+          <!-- ----ICON_BUTTONS---- -->
+          <h2 class="docs-h2">Icon Buttons</h2>
+          <p class="docs-p">
+            Just use material-icon before the button text as shown below in the
+            code snippet
+          </p>
+
+          <!-- ----ICON_BUTTONS_EXAMPLES---- -->
+          <button class="btn btn-primary m-xl-r">
+            <span class="material-icons-outlined btn-icon m-xs-r">
+              file_upload
+            </span>
+            Upload
+          </button>
+          <button class="btn btn-secondary m-xl-r">
+            <span class="material-icons-outlined btn-icon m-xs-r"> save </span>
+            Save
+          </button>
+
+          <!-- ----ICON_BUTTONS_CODE_SNIPPET---- -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/6Unk5CqZLd53rXI5OQrl"
+              style="
+                width: 680px;
+                height: 365px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;

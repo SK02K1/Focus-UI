@@ -1,6 +1,7 @@
 @import url(../../css/reset.css);
 @import url(../../css/variables.css);
 @import url(../../css/defaults.css);
+@import url(../../css/utilities.css);
 @import url(../../components/avatar/avatar.css);
 @import url(../../components/badge/badge.css);
 @import url(../../components/alert/alert.css);
@@ -94,10 +95,6 @@ hr {
 
 .text-highlight {
   color: var(--clr-accent-500);
-}
-
-.hr-gutter-rt-1 {
-  margin-right: 1rem;
 }
 
 .carbon-container {
