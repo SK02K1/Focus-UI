@@ -95,6 +95,10 @@ hr {
   color: var(--clr-accent-500);
 }
 
+.hr-gutter-rt-1 {
+  margin-right: 1rem;
+}
+
 .carbon-container {
   max-width: 100%;
   overflow: hidden;
