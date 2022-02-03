@@ -528,11 +528,11 @@
 
           <!-- SIMPLE_TEXT_CARD_EXAMPLE -->
           <div class="card">
-            <div class="card-header">
-              <h2 class="card-title">Card title</h2>
+            <div class="card-header m-xs-tb">
+              <h2 class="card-title m-xs-tb">Card title</h2>
             </div>
-            <div class="card-body">
-              <p class="card-text">
+            <div class="card-body m-xs-tb">
+              <p class="card-text m-xs-tb">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Possimus, fuga amet porro dicta nemo inventore!
               </p>
@@ -560,14 +560,14 @@
           <!-- SIMPLE_TEXT_CARD_WITH_DISMISS -->
           <h2 class="docs-h2">Simple text card with dismiss</h2>
           <div class="card">
-            <div class="card-header">
-              <h2 class="card-title">Card title</h2>
-              <span class="material-icons-outlined card-icon-close">
+            <div class="card-header m-xs-tb">
+              <h2 class="card-title m-xs-tb">Card title</h2>
+              <span class="material-icons-outlined card-icon-close m-auto-l">
                 close
               </span>
             </div>
-            <div class="card-body">
-              <p class="card-text">
+            <div class="card-body m-xs-tb">
+              <p class="card-text m-xs-tb">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Possimus, fuga amet porro dicta nemo inventore!
               </p>
@@ -581,6 +581,67 @@
               style="
                 width: 680px;
                 height: 384px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <!-- VERTICAL CARD -->
+          <h2 class="docs-h2">Vertical card</h2>
+
+          <!-- VERTICAL_CARD_EXAMPLES -->
+          <!-- Example-1 -->
+          <div class="card m-md-r">
+            <span class="material-icons-outlined card-icon-like"
+              >favorite_border</span
+            >
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../../assets/men.jfif"
+                alt="men"
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">Rs. 1,999.00</h2>
+              <h3 class="card-title m-xs-tb">Regular Fit Printed sweatshirt</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-secondary card-btn" href="#">Add to cart</a>
+            </div>
+          </div>
+          <!-- Example-2  -->
+          <div class="card">
+            <span class="material-icons-outlined card-icon-like"
+              >favorite_border</span
+            >
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../../assets/women.jfif"
+                alt="women"
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">Rs. 1,499.00</h2>
+              <h3 class="card-title m-xs-tb">Oversized sweatshirt</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-primary card-btn" href="#">Go to cart</a>
+            </div>
+          </div>
+
+          <!-- VERTICAL_CARDS_CODE_SNIPPET -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/HZdulU5tNcHy7Kd2uOWO"
+              style="
+                width: 680px;
+                height: 886px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
