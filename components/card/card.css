@@ -1,0 +1,28 @@
+.card {
+  display: inline-block;
+  max-width: 20rem;
+  border-radius: var(--br);
+  box-shadow: var(--shadow);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.card-header,
+.card-body {
+  padding: 0.5rem 1rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--gray);
+}
