@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☀️</text></svg>"
     />
@@ -13,6 +17,7 @@
   </head>
   <body>
     <div class="wrapper">
+      <!-- ------SIDEBAR------ -->
       <aside class="sidebar">
         <ul role="list">
           <h2>Getting Started 🚀</h2>
@@ -35,13 +40,20 @@
           <li class="sidebar-option">Toast</li>
         </ul>
       </aside>
+
+      <!-- ------MAIN-CONTENT------ -->
       <main class="main-content">
+        <!-- -----1. INSTALLATION----- -->
         <section data-id="Installation">
           <h1 class="docs-h1">Installation</h1>
         </section>
+
+        <!-- -----2. AVATAR----- -->
         <section data-id="Avatar">
           <h1 class="docs-h1">Avatar</h1>
           <p class="docs-p">Avatars are available in 5 sizes</p>
+
+          <!-- ----AVATAR_EXAMPLES -->
           <img
             class="avatar avatar-xs"
             src="../../assets/avatar-04.svg"
@@ -67,6 +79,7 @@
             src="../../assets/avatar-04.svg"
             alt="avatar"
           />
+          <!-- ----AVATARS_CODE_SNIPPET---- -->
           <div class="carbon-container">
             <iframe
               src="https://carbon.now.sh/embed/dmC13f0u1W78c1b8C2Qp"
@@ -82,9 +95,93 @@
             </iframe>
           </div>
         </section>
+
+        <!-- -----3. ALERT----- -->
         <section data-id="Alert">
           <h1 class="docs-h1">Alert</h1>
+          <p class="docs-p">
+            An alert displays a short, important message in a way that attracts
+            the user's attention without interrupting the user's task.
+          </p>
+          <hr />
+          <h2 class="docs-h2">Basic alerts</h2>
+
+          <!-- ----BASIC_ALERT_EXAMPLES---- -->
+          <div role="alert" class="alert alert-error">
+            <span class="material-icons-outlined icon-error"> error </span>
+            <div class="alert-msg">This is an error alert</div>
+          </div>
+          <div role="alert" class="alert alert-warning">
+            <span class="material-icons-outlined icon-warning"> warning </span>
+            <div class="alert-msg">This is an warning alert</div>
+          </div>
+          <div role="alert" class="alert alert-info">
+            <span class="material-icons-outlined icon-info"> info </span>
+            <div class="alert-msg">This is an info alert</div>
+          </div>
+          <div role="alert" class="alert alert-success">
+            <span class="material-icons-outlined icon-success">
+              check_circle
+            </span>
+            <div class="alert-msg">This is an success alert</div>
+          </div>
+
+          <!-- ----BASIC_ALERTS_CODE_SNIPPET---- -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/PttlyzAx3B8tN3DhQ3Sm"
+              style="
+                width: 680px;
+                height: 589px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <hr />
+          <h2 class="docs-h2">Outlined alerts</h2>
+
+          <!-- ----OUTLINED_ALERT_EXAMPLES---- -->
+          <div role="alert" class="alert alert-error outlined">
+            <span class="material-icons-outlined icon-error"> error </span>
+            <div class="alert-msg">This is an error alert</div>
+          </div>
+          <div role="alert" class="alert alert-warning outlined">
+            <span class="material-icons-outlined icon-warning"> warning </span>
+            <div class="alert-msg">This is an warning alert</div>
+          </div>
+          <div role="alert" class="alert alert-info outlined">
+            <span class="material-icons-outlined icon-info"> info </span>
+            <div class="alert-msg">This is an info alert</div>
+          </div>
+          <div role="alert" class="alert alert-success outlined">
+            <span class="material-icons-outlined icon-success">
+              check_circle
+            </span>
+            <div class="alert-msg">This is an success alert</div>
+          </div>
+
+          <!-- ----OUTLINED_ALERTS_CODE_SNIPPET---- -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/WgUkhzFmOEU99iUNEr4y"
+              style="
+                width: 680px;
+                height: 622px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </section>
+
+        <!-- ------3. BADGE------ -->
         <section data-id="Badge">
           <h1 class="docs-h1">Badge</h1>
           <p class="docs-p">
@@ -92,6 +189,8 @@
             element by indicating some state.
           </p>
           <hr />
+
+          <!-- ----BADGE_ON_AVATAR---- -->
           <h2 class="docs-h2">Badge on avatars</h2>
           <p class="docs-p">
             Use avatar badge to indicate states like
@@ -101,6 +200,7 @@
             <span class="text-highlight">do not disturb</span>.
           </p>
 
+          <!-- -----BADGE_ON_AVATAR_EXAMPLES----- -->
           <div class="avatar-badge avatar-badge-md">
             <img
               class="avatar avatar-md"
@@ -133,6 +233,8 @@
             />
             <div class="status status-dnd"></div>
           </div>
+
+          <!-- ----BADGE_ON_AVATAR_CODE_SNIPPET---- -->
           <div class="carbon-container">
             <iframe
               src="https://carbon.now.sh/embed/n8YwSxcgmnRp2jhCFKfa"
@@ -147,11 +249,13 @@
             >
             </iframe>
           </div>
+
           <p class="docs-p">
             <span class="text-highlight">Note: </span> To position badge on
             avatar correctly, size of avatar and badge must be same.
           </p>
 
+          <!-- -----BADGE_ON_AVATAR_DIFFERENT-SIZES----- -->
           <div class="avatar-badge avatar-badge-xs">
             <img
               class="avatar avatar-xs"
@@ -193,28 +297,34 @@
             <div class="status status-online"></div>
           </div>
           <hr />
+
+          <!-- -----BADGE_ON_ICONS----- -->
           <h2 class="docs-h2">Badge on icons</h2>
           <p class="docs-p">
             Use icon badge to show numbers and different state on icons.
           </p>
-          <div class="icon-badge">
-            <img class="icon" src="../../assets/mail.svg" alt="mail" />
+
+          <!-- ----BADGE_ON_ICON_EXAMPLES---- -->
+          <div class="icon-badge m-xl-r">
+            <span class="material-icons-outlined icon"> email </span>
             <div>99</div>
           </div>
-          <div class="icon-badge">
-            <img
-              class="icon"
-              src="../../assets/notifications.svg"
-              alt="notifications"
-            />
+          <div class="icon-badge m-xl-r">
+            <span class="material-icons-outlined icon"> notifications </span>
             <div>5</div>
           </div>
+          <div class="icon-badge m-xl-r">
+            <span class="material-icons-outlined icon"> shopping_cart </span>
+            <div>0</div>
+          </div>
+
+          <!-- ----BADGE_ON_ICON_CODE_SNIPPET---- -->
           <div class="carbon-container">
             <iframe
               src="https://carbon.now.sh/embed/RoMHbvpnrLIq9nNStuln"
               style="
                 width: 680px;
-                height: 235px;
+                height: 347px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -224,8 +334,176 @@
             </iframe>
           </div>
         </section>
+
+        <!-- ----4. BUTTON---- -->
         <section data-id="Button">
           <h1 class="docs-h1">Button</h1>
+          <p class="docs-p">
+            Use buttons to allow users to take actions, and make choices, with a
+            single tap.
+          </p>
+          <hr />
+
+          <!-- ----CONTAINED_BUTTONS---- -->
+          <h2 class="docs-h2">Contained button</h2>
+          <p class="docs-p">
+            Contained buttons are high-emphasis, distinguished by their use of
+            elevation and fill. They contain actions that are primary to your
+            app.
+          </p>
+
+          <!-- ----CONTAINED_BUTTONS_EXAMPLES---- -->
+          <button class="btn btn-primary m-xl-r">Primary</button>
+          <button class="btn btn-secondary m-xl-r">Secondary</button>
+          <button class="btn btn-danger m-xl-r">Danger</button>
+          <button class="btn btn-success m-xl-r">Success</button>
+
+          <!-- ----CONTAINED_BUTTONS_CODE_SNIPPET---- -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/Tq6tqD2Kq8J5CBSIi3ex"
+              style="
+                width: 680px;
+                height: 375px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <hr />
+
+          <!-- ----OUTLINED_BUTTONS---- -->
+          <h2 class="docs-h2">Outlined Button</h2>
+          <p class="docs-p">
+            Outlined buttons are medium-emphasis buttons. They contain actions
+            that are important but aren't the primary action in an app.
+          </p>
+
+          <!-- ----OUTLINED_BUTTONS_EXAMPLES---- -->
+          <button class="btn btn-primary outlined m-xl-r">Primary</button>
+          <button class="btn btn-secondary outlined m-xl-r">Secondary</button>
+          <button class="btn btn-danger outlined m-xl-r">Danger</button>
+          <button class="btn btn-success outlined m-xl-r">Success</button>
+
+          <!-- ----OUTLINED_BUTTON_CODE_SNIPPET---- -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/7jaYjnbztELLtKhlA1CP"
+              style="
+                width: 680px;
+                height: 334px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <hr />
+
+          <!-- ----LINK_BUTTONS---- -->
+          <h2 class="docs-h2">Link Button</h2>
+          <p class="docs-p">Using anchor tag as button</p>
+
+          <!-- ----LINK_BUTTONS_EXAMPLES---- -->
+          <a class="btn btn-primary m-xl-r" href="#">Link</a>
+          <a class="btn btn-primary outlined m-xl-r" href="#">Link</a>
+
+          <!-- ----LINK_BUTTON_CODE_SNIPPET---- -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/NzRLOgAlgz0zCai8A4Tw"
+              style="
+                width: 680px;
+                height: 230px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <hr />
+
+          <!-- ----ICON_BUTTONS---- -->
+          <h2 class="docs-h2">Icon Buttons</h2>
+          <p class="docs-p">
+            Just use material-icon before the button text as shown below in the
+            code snippet
+          </p>
+
+          <!-- ----ICON_BUTTONS_EXAMPLES---- -->
+          <button class="btn btn-primary m-xl-r">
+            <span class="material-icons-outlined btn-icon m-xs-r">
+              file_upload
+            </span>
+            Upload
+          </button>
+          <button class="btn btn-secondary m-xl-r">
+            <span class="material-icons-outlined btn-icon m-xs-r"> save </span>
+            Save
+          </button>
+
+          <!-- ----ICON_BUTTONS_CODE_SNIPPET---- -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/6Unk5CqZLd53rXI5OQrl"
+              style="
+                width: 680px;
+                height: 365px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <!-- ----FLOATING_ACTION_BUTTON---- -->
+          <h2 class="docs-h2">Floating action button</h2>
+          <p class="docs-p">
+            A floating action button (FAB) performs the primary, or most common,
+            action on a screen.
+          </p>
+          <p class="docs-p">
+            Floating action button appears in front of all screen content,
+            typically as a circular shape with an icon in its center.
+          </p>
+          <p class="docs-p">
+            Only use a FAB if it is the most suitable way to present a screen's
+            primary action. Only one component is recommended per screen to
+            represent the most common action.
+          </p>
+
+          <!-- ----FLOATING_ACTION_BUTTON_EXAMPLES---- -->
+          <button class="btn btn-fab m-lg-r">
+            <span class="material-icons-outlined"> favorite </span>
+          </button>
+          <button class="btn btn-fab m-lg-r">
+            <span class="material-icons-outlined"> add </span>
+          </button>
+
+          <!-- ----FAB_CODE_SNIPPET -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/Cs55PQvuEhuEZOc9xK55"
+              style="
+                width: 680px;
+                height: 291px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </section>
         <section data-id="Card">
           <h1 class="docs-h1">Card</h1>
