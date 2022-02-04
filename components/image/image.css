@@ -1,0 +1,12 @@
+.img-res {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.img-rounded {
+  border-radius: var(--br-md);
+}
+
+.img-round {
+  border-radius: var(--br-full);
+}
