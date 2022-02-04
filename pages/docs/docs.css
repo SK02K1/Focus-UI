@@ -1,11 +1,12 @@
 @import url(../../css/reset.css);
 @import url(../../css/variables.css);
 @import url(../../css/defaults.css);
-@import url(../../css/utilities.css);
+@import url(../../css/utilities/margin.css);
 @import url(../../components/avatar/avatar.css);
 @import url(../../components/badge/badge.css);
 @import url(../../components/alert/alert.css);
 @import url(../../components/button/button.css);
+@import url(../../components/card/card.css);
 
 body {
   font-family: var(--ff-primary);

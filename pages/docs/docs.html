@@ -505,8 +505,317 @@
             </iframe>
           </div>
         </section>
+
+        <!-- ----Card---- -->
         <section data-id="Card">
           <h1 class="docs-h1">Card</h1>
+          <p class="docs-p">
+            Cards contain content and actions about a single subject.
+          </p>
+          <p class="docs-p">
+            They should be easy to scan for relevant and actionable information.
+            Elements, like text and images, should be placed on them in a way
+            that clearly indicates hierarchy.
+          </p>
+          <hr />
+
+          <!-- SIMPLE_TEXT_CARD -->
+          <h2 class="docs-h2">Simple text card</h2>
+          <p class="docs-p">
+            Use simple text card component in places where you want to show a
+            title and description related to that title.
+          </p>
+
+          <!-- SIMPLE_TEXT_CARD_EXAMPLE -->
+          <div class="card">
+            <div class="card-header m-xs-tb">
+              <h2 class="card-title m-xs-tb">Card title</h2>
+            </div>
+            <div class="card-body m-xs-tb">
+              <p class="card-text m-xs-tb">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, fuga amet porro dicta nemo inventore!
+              </p>
+            </div>
+          </div>
+
+          <!-- SIMPLE_TEXT_CARD_CODE_SNIPPET -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/zsYAqVTvWWcVq70pdDjX"
+              style="
+                width: 680px;
+                height: 328px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <hr />
+
+          <!-- SIMPLE_TEXT_CARD_WITH_DISMISS -->
+          <h2 class="docs-h2">Simple text card with dismiss</h2>
+          <div class="card">
+            <div class="card-header m-xs-tb">
+              <h2 class="card-title m-xs-tb">Card title</h2>
+              <span class="material-icons-outlined card-icon-close m-auto-l">
+                close
+              </span>
+            </div>
+            <div class="card-body m-xs-tb">
+              <p class="card-text m-xs-tb">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, fuga amet porro dicta nemo inventore!
+              </p>
+            </div>
+          </div>
+
+          <!-- SIMPLE_TEXT_CARD_WITH_DISMISS_CODE-SNIPPET -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/aqRt4T9CpUsiz6tjxvPl"
+              style="
+                width: 680px;
+                height: 384px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <!-- VERTICAL CARD -->
+          <h2 class="docs-h2">Vertical card</h2>
+
+          <!-- VERTICAL_CARD_EXAMPLES -->
+          <!-- Example-1 -->
+          <div class="card m-md-r">
+            <span class="material-icons-outlined card-icon-like"
+              >favorite_border</span
+            >
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../../assets/men.jfif"
+                alt="men"
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">Rs. 1,999.00</h2>
+              <h3 class="card-title m-xs-tb">Regular Fit Printed sweatshirt</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-secondary card-btn" href="#">Add to cart</a>
+            </div>
+          </div>
+          <!-- Example-2  -->
+          <div class="card">
+            <span class="material-icons-outlined card-icon-like"
+              >favorite_border</span
+            >
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../../assets/women.jfif"
+                alt="women"
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">Rs. 1,499.00</h2>
+              <h3 class="card-title m-xs-tb">Oversized sweatshirt</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-primary card-btn" href="#">Go to cart</a>
+            </div>
+          </div>
+
+          <!-- VERTICAL_CARDS_CODE_SNIPPET -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/HZdulU5tNcHy7Kd2uOWO"
+              style="
+                width: 680px;
+                height: 495px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <hr />
+
+          <!-- TEXT_OVER_MEDIA -->
+          <h2 class="docs-h2">Text over media</h2>
+
+          <!-- TEXT_OVER_MEDIA_EXAMPLES -->
+
+          <!-- Example-1 -->
+          <div class="card text-over-media m-md-r">
+            <span class="material-icons-outlined card-icon-like"
+              >favorite_border</span
+            >
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../../assets/men.jfif"
+                alt="men"
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">Rs. 1,999.00</h2>
+              <h3 class="card-title m-xs-tb">Regular Fit Printed sweatshirt</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-secondary card-btn" href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <!-- Example-2  -->
+          <div class="card text-over-media">
+            <span class="material-icons-outlined card-icon-like"
+              >favorite_border</span
+            >
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../../assets/women.jfif"
+                alt="women"
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">Rs. 1,499.00</h2>
+              <h3 class="card-title m-xs-tb">Oversized sweatshirt</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-primary card-btn" href="#">Go to cart</a>
+            </div>
+          </div>
+
+          <!-- TEXT_OVER_MEDIA_CODE_SNIPPET -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/qvUYDejgS7F0AnycJ7rO"
+              style="
+                width: 680px;
+                height: 533px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <hr />
+
+          <!-- CARD_WITH_BADGE -->
+          <h2 class="docs-h2">Vertical card with badge</h2>
+          <!-- CARD_WTH_BADGE_EXAMPLES -->
+
+          <!-- Example-1 -->
+          <div class="card m-md-r">
+            <div class="card-badge">NEW</div>
+            <span class="material-icons-outlined card-icon-like"
+              >favorite_border</span
+            >
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../../assets/men.jfif"
+                alt="men"
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">Rs. 1,999.00</h2>
+              <h3 class="card-title m-xs-tb">Regular Fit Printed sweatshirt</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-secondary card-btn" href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <!-- Example-2 -->
+          <div class="card">
+            <div class="card-badge">SALE</div>
+            <span class="material-icons-outlined card-icon-like"
+              >favorite_border</span
+            >
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../../assets/women.jfif"
+                alt="women"
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">Rs. 1,499.00</h2>
+              <h3 class="card-title m-xs-tb">Oversized sweatshirt</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-primary card-btn" href="#">Go to cart</a>
+            </div>
+          </div>
+
+          <!-- CARD_WITH_BADGE_CODE_SNIPPET -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/JU17doVv0G1DQlbtyLKX"
+              style="
+                width: 680px;
+                height: 514px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <hr />
+
+          <!-- HORIZONTAL_CARD -->
+          <h2 class="docs-h2">Horizontal Card</h2>
+
+          <!-- HORIZONTAL_CARD_EXAMPLE -->
+          <div class="card card-x">
+            <img class="card-img" src="../../assets/men.jfif" alt="men" />
+            <div class="card-content">
+              <h2 class="item-price m-xs-tb">Rs. 1,499.00</h2>
+              <h3 class="card-title m-xs-tb">Regular Fit Printed sweatshirt</h3>
+              <div class="btn-container">
+                <button class="btn btn-primary card-btn">Add to card</button>
+                <button class="btn btn-secondary card-btn m-sm-t">
+                  Remove from wishlist
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- HORIZONTAL_CARD_CODE_SNIPPET -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/cMaE4pb6IBwTqCX1wIEf"
+              style="
+                width: 680px;
+                height: 347px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </section>
         <section data-id="Grid">
           <h1 class="docs-h1">Grid</h1>
