@@ -1,0 +1,42 @@
+.input {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid var(--clr-primary-300);
+  border-radius: var(--br);
+  color: var(--black);
+}
+
+.input-success {
+  border-color: var(--clr-success-300);
+}
+
+.input-warning {
+  border-color: var(--clr-warning-300);
+}
+
+.input-error {
+  border-color: var(--clr-danger-300);
+  color: red;
+}
+
+.input[disabled] {
+  border-color: var(--clr-primary-100);
+  cursor: not-allowed;
+}
+
+.input:focus {
+  border-color: var(--clr-primary-500);
+}
+
+.input-success:focus {
+  border-color: var(--clr-success-500);
+}
+
+.input-warning:focus {
+  border-color: var(--clr-warning-500);
+}
+
+.input-error:focus {
+  border-color: var(--clr-danger-500);
+}
