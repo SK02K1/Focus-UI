@@ -1,0 +1,10 @@
+.list.spaced {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+}
