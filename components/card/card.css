@@ -55,6 +55,20 @@
   color: var(--clr-accent-500);
 }
 
+.card-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--white);
+  background-color: var(--clr-accent-500);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  padding: 0.5rem 1rem;
+  box-shadow: var(--shadow);
+  border-bottom-right-radius: var(--br);
+}
+
 .card-title {
   font-size: 1rem;
   font-weight: 400;
