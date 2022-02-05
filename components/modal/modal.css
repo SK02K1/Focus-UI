@@ -1,0 +1,42 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 999;
+}
+
+.modal {
+  width: 20rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: var(--br);
+  box-shadow: var(--shadow-lg);
+  padding: 1rem;
+}
+
+.modal-content,
+.modal-controls {
+  padding: 0.5rem;
+}
+
+.modal-text {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin: 0.5rem 0rem;
+}
+
+.modal-controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-btn:nth-child(2) {
+  margin-left: 1rem;
+}
