@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--clr-primary-500);
+  padding: 1rem 1.4rem;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.logo {
+  font-weight: 600;
+}
+
+.links {
+  margin-left: auto;
+}
+
+.links li {
+  display: inline-block;
+  margin-left: 1rem;
+}
