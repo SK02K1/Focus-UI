@@ -1023,8 +1023,54 @@
             </iframe>
           </div>
         </section>
+
+        <!-- Modal -->
         <section data-id="Modal">
           <h1 class="docs-h1">Modal</h1>
+          <p class="docs-p">
+            The modal component provides a solid foundation for creating
+            dialogs, popovers, lightboxes, or whatever else.
+          </p>
+          <button id="btn-show-modal" class="btn btn-primary">
+            Show Modal
+          </button>
+
+          <!-- Modal Example -->
+          <div class="modal-wrapper">
+            <div class="modal">
+              <div class="modal-content">
+                <h2 class="modal-header">Modal Header</h2>
+                <p class="modal-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis, quam.
+                </p>
+              </div>
+              <div class="modal-controls">
+                <button id="modal-action-1" class="btn btn-primary modal-btn">
+                  action 1
+                </button>
+                <button id="modal-action-2" class="btn btn-secondary modal-btn">
+                  action 2
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Markup Code Snippet -->
+          <div class="carbon-container">
+            <iframe
+              src="https://carbon.now.sh/embed/R1ssmEAlOtilsDl5ty5C"
+              style="
+                width: 680px;
+                height: 477px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </section>
         <section data-id="Navigation">
           <h1 class="docs-h1">Navigation</h1>
@@ -1172,6 +1218,7 @@
         </section>
       </main>
     </div>
+    <script src="../../scripts/modal.js"></script>
     <script src="./docs.js"></script>
   </body>
 </html>
