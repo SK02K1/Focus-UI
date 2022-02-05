@@ -12,6 +12,7 @@
 @import url(../../components/typography/typography.css);
 @import url(../../components/list/list.css);
 @import url(../../components/modal/modal.css);
+@import url(../../components/slider/slider.css);
 
 body {
   font-family: var(--ff-primary);

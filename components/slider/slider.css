@@ -1,0 +1,8 @@
+.slider-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.slider-container > span {
+  margin-right: 0.5rem;
+}
