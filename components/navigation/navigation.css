@@ -7,7 +7,7 @@
 }
 
 .navbar a {
-  color: #fff;
+  color: var(--white);
   padding: 0.5rem;
 }
 
