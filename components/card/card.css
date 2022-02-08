@@ -115,3 +115,23 @@
 .btn-container {
   margin-top: auto;
 }
+
+.card.shadow {
+  box-shadow: var(--shadow-xl);
+}
+
+.card.overlay > .overlay-content {
+  font-weight: 600;
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: var(--br);
+}
