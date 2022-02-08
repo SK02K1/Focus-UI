@@ -1,6 +1,17 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 2rem 1rem;
-  justify-items: self-start;
+  justify-items: center;
+}
+
+.grid-container.auto {
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.grid-container.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-container.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
 }
