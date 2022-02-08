@@ -11,9 +11,7 @@ hr {
 }
 
 .wrapper {
-  width: 70%;
   height: 100vh;
-  margin: 0 auto;
   display: flex;
   overflow: hidden;
 }
@@ -26,7 +24,7 @@ hr {
 
 .sidebar {
   width: 30%;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 6rem;
 }
 
 .sidebar h2 {
