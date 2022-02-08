@@ -115,3 +115,7 @@
 .btn-container {
   margin-top: auto;
 }
+
+.card.shadow {
+  box-shadow: var(--shadow-xl);
+}
