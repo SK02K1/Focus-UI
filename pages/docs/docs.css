@@ -93,3 +93,9 @@ hr {
   overflow: hidden;
   margin: 2rem 0rem;
 }
+
+.line {
+  height: 1px;
+  margin: 2rem 0;
+  background-color: var(--gray);
+}
